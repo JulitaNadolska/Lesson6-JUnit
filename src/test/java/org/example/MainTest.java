@@ -72,7 +72,7 @@ class MainTest {
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {""})
+    @ValueSource(strings = {"WebDriver | Selenium"})
     @Tag("Regression")
     @Tag("SeleniumDocs")
     void checkTitleSeleniumDocs() {
