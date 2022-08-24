@@ -32,7 +32,7 @@ class MainTest {
     @ValueSource(strings = {"Rozwiązania i usługi IT, inżynierii i BPO - Sii Polska"})
     @Tag("Regression")
     @Tag("Sii")
-    void checkTitleSii() {
+    void checkTitleSii(String title) {
         driver.get("https://www.sii.pl");
         String actualTitle = driver.getTitle();
         String expectedTitle = "Rozwiązania i usługi IT, inżynierii i BPO - Sii Polska";
@@ -43,7 +43,7 @@ class MainTest {
     @ValueSource(strings = {"Onet – Jesteś na bieżąco"})
     @Tag("Regression")
     @Tag("Onet")
-    void checkTitleOnet() {
+    void checkTitleOnet(String title) {
         driver.get("https://www.onet.pl");
         String actualTitle = driver.getTitle();
         String expectedTitle = "Onet – Jesteś na bieżąco";
@@ -54,7 +54,7 @@ class MainTest {
     @ValueSource(strings = {"Kotuszkowo- blog o kotach"})
     @Tag("Regression")
     @Tag("Kotuszkowo")
-    void checkTitleKotuszkowo() {
+    void checkTitleKotuszkowo(String title) {
         driver.get("http://kotuszkowo.pl/");
         String actualTitle = driver.getTitle();
         String expectedTitle = "Kotuszkowo- blog o kotach";
@@ -75,7 +75,7 @@ class MainTest {
     @ValueSource(strings = {"WebDriver | Selenium"})
     @Tag("Regression")
     @Tag("SeleniumDocs")
-    void checkTitleSeleniumDocs() {
+    void checkTitleSeleniumDocs(String title) {
         driver.get("https://www.selenium.dev/documentation/en/webdriver/");
         String actualTitle = driver.getTitle();
         String expectedTitle = "WebDriver | Selenium";
