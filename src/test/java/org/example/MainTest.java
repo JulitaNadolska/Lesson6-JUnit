@@ -5,7 +5,6 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import static org.assertj.core.api.Assertions.assertThat;
-
 class MainTest extends WebDriverSetUp {
 
     @ParameterizedTest
