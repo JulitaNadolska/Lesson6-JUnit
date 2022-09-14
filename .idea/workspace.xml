@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10e41bd5-63c4-47c3-804f-9ffc41d311ea" name="Changes" comment="fix tests">
+    <list default="true" id="3b2ce888-6f76-465e-83e5-d8b435f1a959" name="Changes" comment="fix tests">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/setUp/WebDriverSetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/setUp/WebDriverSetUp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,7 +29,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2DiOQzM8Ywb0ZIg4gqS6nZuhnB8" />
+  <component name="ProjectId" id="2EGSgbtIuI95VdQ2RJyRk3Ad3S0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,20 +39,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jnadolska/Desktop/Lesson6-JUnit&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.example" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jnadolska\Downloads\Lesson6-JUnit-master (1)\Lesson6-JUnit-master\src\main\resources" />
+      <recent name="C:\Users\jnadolska\Downloads\Lesson6-JUnit-master (1)\Lesson6-JUnit-master\src\test\java\org\SetUp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest (1)">
-    <configuration name="MainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUnit5_tutorial" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson6-JUnit" />
+    <configuration name="MainTest.TestPageTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnit5_tutorial" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -81,22 +74,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.checkTitleOnet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson6-JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MainTest" />
-      <option name="METHOD_NAME" value="checkTitleOnet" />
+      <option name="METHOD_NAME" value="TestPageTitle(java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,57 +82,42 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest (1)" />
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.checkTitleOnet" />
+        <item itemvalue="JUnit.MainTest.TestPageTitle" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="10e41bd5-63c4-47c3-804f-9ffc41d311ea" name="Changes" comment="" />
-      <created>1661178427172</created>
+      <changelist id="3b2ce888-6f76-465e-83e5-d8b435f1a959" name="Changes" comment="" />
+      <created>1662220539145</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661178427172</updated>
+      <updated>1662220539145</updated>
     </task>
-    <task id="LOCAL-00001" summary="adding dependencies">
-      <created>1661178520396</created>
+    <task id="LOCAL-00001" summary="fix tests">
+      <created>1662470238671</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1661178520396</updated>
+      <updated>1662470238671</updated>
     </task>
-    <task id="LOCAL-00002" summary="adding tests for checking pages title">
-      <created>1661180600787</created>
+    <task id="LOCAL-00002" summary="fix tests">
+      <created>1662532282809</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1661180600787</updated>
+      <updated>1662532282809</updated>
     </task>
     <task id="LOCAL-00003" summary="fix tests">
-      <created>1661232653537</created>
+      <created>1662532294200</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1661232653537</updated>
+      <updated>1662532294200</updated>
     </task>
-    <task id="LOCAL-00004" summary="fix tests">
-      <created>1662548557506</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1662548557506</updated>
-    </task>
-    <task id="LOCAL-00005" summary="fix tests">
-      <created>1662548599308</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1662548599308</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,8 +132,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding dependencies" />
-    <MESSAGE value="adding tests for checking pages title" />
     <MESSAGE value="fix tests" />
     <option name="LAST_COMMIT_MESSAGE" value="fix tests" />
   </component>
